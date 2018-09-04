@@ -14,7 +14,6 @@ function appendToDiv(){
     //I can't get the swapColor function to work using the 'this' keyword,
     //so I decided to try adding a unique id to each div instead
     $( '#toBeAppended' ).append(`<div class="appendedDiv" id="` + counter + `">
-        This was appended, and the counter is 
             <p>` + counter + `</p>
             <button class="swap">Swap</button>
             <button class="delete">Delete</button>
